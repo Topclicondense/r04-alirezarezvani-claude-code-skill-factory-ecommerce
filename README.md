@@ -1,44 +1,44 @@
-        # 🛒 E-commerce & Retail Skills Suite
-        ### Derived from [alirezarezvani/claude-code-skill-factory](https://github.com/alirezarezvani/claude-code-skill-factory)
+# 🛒 E-commerce & Retail Skills Suite
+### Derived from [alirezarezvani/claude-code-skill-factory](https://github.com/alirezarezvani/claude-code-skill-factory)
 
-        ![Domain](https://img.shields.io/badge/Domain-E-commerce%20&%20Retail-orange?style=for-the-badge)
-        ![Commands](https://img.shields.io/badge/Commands-10-blue?style=for-the-badge)
-        ![Workflows](https://img.shields.io/badge/Workflows-5-orange?style=for-the-badge)
-        ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![Domain](https://img.shields.io/badge/Domain-E-commerce%20&%20Retail-orange?style=for-the-badge)
+![Commands](https://img.shields.io/badge/Commands-10-blue?style=for-the-badge)
+![Workflows](https://img.shields.io/badge/Workflows-5-orange?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-        > **Adaptation of `alirezarezvani/claude-code-skill-factory` for E-commerce & Retail use cases.**
-        > Source focus: _skill scaffolding, code agents, slash command generation_
+> **Adaptation of `alirezarezvani/claude-code-skill-factory` for E-commerce & Retail use cases.**
+> Source focus: _skill scaffolding, code agents, slash command generation_
 
-        ---
+---
 
-        ## What This Skill Suite Does
+## What This Skill Suite Does
 
-        Product catalogue optimisation, conversion rate, customer journey and retail analytics.
+Product catalogue optimisation, conversion rate, customer journey and retail analytics.
 
-        This collection provides **10 specialised commands** and
-        **5 multi-step workflows**, all with a consistent
-        structured-output UI so you always know exactly where you are and what to do next.
+This collection provides **10 specialised commands** and
+**5 multi-step workflows**, all with a consistent
+structured-output UI so you always know exactly where you are and what to do next.
 
-        ---
+---
 
-        ## Quick Install
+## Quick Install
 
-        ```bash
-        # Clone this skill
-        cp -r . ~/.claude/skills/r00-alirezarezvani-claude-code-skill-factory--ecommerce/
+```bash
+# Clone this skill
+cp -r . ~/.claude/skills/r00-alirezarezvani-claude-code-skill-factory--ecommerce/
 
-        # Register in Claude Code
-        # In a Claude Code session:
-        /read ~/.claude/skills/r00-alirezarezvani-claude-code-skill-factory--ecommerce/SKILL.md
-        ```
+# Register in Claude Code
+# In a Claude Code session:
+/read ~/.claude/skills/r00-alirezarezvani-claude-code-skill-factory--ecommerce/SKILL.md
+```
 
-        ---
+---
 
-        ## Commands
+## Commands
 
-        | Command | Description |
-        |---------|-------------|
-        | `/product-copy` | Conversion-optimised product title, description and bullet points from spec sheet |
+| Command | Description |
+|---------|-------------|
+| `/product-copy` | Conversion-optimised product title, description and bullet points from spec sheet |
 | `/price-strategy` | Dynamic pricing recommendation using competitor data and elasticity model |
 | `/cart-abandonment` | Cart abandonment email sequence with personalisation tokens and timing logic |
 | `/inventory-forecast` | Demand forecasting report with reorder points and safety stock calculation |
@@ -49,39 +49,39 @@
 | `/bundle-suggest` | Cross-sell and bundle recommendation engine from order history patterns |
 | `/marketplace-audit` | Amazon/eBay listing health score, Buy Box eligibility and keyword gap |
 
-        **Usage:**
-        ```bash
-        /product-copy <target>
-        /price-strategy --scope full --output md
-        ```
+**Usage:**
+```bash
+/product-copy <target>
+/price-strategy --scope full --output md
+```
 
-        ---
+---
 
-        ## Workflows (Multi-step)
+## Workflows (Multi-step)
 
-        | Workflow | Description |
-        |----------|-------------|
-        | `product-launch` | Full product launch: copy → imagery brief → ads → email → SEO → review plan |
+| Workflow | Description |
+|----------|-------------|
+| `product-launch` | Full product launch: copy → imagery brief → ads → email → SEO → review plan |
 | `seasonal-campaign` | Black Friday / holiday campaign: offer → landing page → email sequence → ads |
 | `retention-engine` | Post-purchase flow: confirmation → onboarding → loyalty → win-back sequence |
 | `marketplace-expand` | New marketplace expansion: listing → pricing → fulfillment → compliance checklist |
 | `conversion-sprint` | 90-day CRO sprint: audit → hypothesis → A/B tests → iterate → report |
 
-        **Usage:**
-        ```bash
-        /workflows:product-launch <target> --scope full
-        ```
+**Usage:**
+```bash
+/workflows:product-launch <target> --scope full
+```
 
-        ---
+---
 
-        ## UI Design
+## UI Design
 
-        All commands display structured output with:
+All commands display structured output with:
 
-        - **Progress panels** — real-time step tracking
-        - **Findings tables** — sorted by severity (🔴🟠🟡🟢)
-        - **Action checklists** — quick wins → medium-term → strategic
-        - **Summary cards** — at-a-glance metrics after each command
+- **Progress panels** — real-time step tracking
+- **Findings tables** — sorted by severity (🔴🟠🟡🟢)
+- **Action checklists** — quick wins → medium-term → strategic
+- **Summary cards** — at-a-glance metrics after each command
 
 
 ## Progress Display Example
@@ -110,37 +110,37 @@ Conversion Score:  ████████░░  78 / 100
 ```
 
 
-        ---
+---
 
-        ## Interaction Pattern
+## Interaction Pattern
 
-        Every command follows this 5-step structure:
+Every command follows this 5-step structure:
 
-        ```
-        ① Scope Confirmation  — verify target and options with user
-        ② Live Analysis       — progress bar while working
-        ③ Findings Table      — structured results sorted by impact
-        ④ Action Plan         — prioritised, time-boxed recommendations
-        ⑤ Next Steps          — suggested follow-up commands
-        ```
+```
+① Scope Confirmation  — verify target and options with user
+② Live Analysis       — progress bar while working
+③ Findings Table      — structured results sorted by impact
+④ Action Plan         — prioritised, time-boxed recommendations
+⑤ Next Steps          — suggested follow-up commands
+```
 
-        ---
+---
 
-        ## Source Repository
+## Source Repository
 
-        This suite is derived from
-        **[alirezarezvani/claude-code-skill-factory](https://github.com/alirezarezvani/claude-code-skill-factory)**
-        which focuses on: _skill scaffolding, code agents, slash command generation_.
+This suite is derived from
+**[alirezarezvani/claude-code-skill-factory](https://github.com/alirezarezvani/claude-code-skill-factory)**
+which focuses on: _skill scaffolding, code agents, slash command generation_.
 
-        Improvements in this adaptation:
-        - Domain-specific command vocabulary for E-commerce & Retail
-        - Enhanced structured output with visual progress tracking
-        - Prioritised action plans with time estimates
-        - Workflow orchestration for end-to-end processes
-        - Consistent UI conventions across all commands
+Improvements in this adaptation:
+- Domain-specific command vocabulary for E-commerce & Retail
+- Enhanced structured output with visual progress tracking
+- Prioritised action plans with time estimates
+- Workflow orchestration for end-to-end processes
+- Consistent UI conventions across all commands
 
-        ---
+---
 
-        ## License
+## License
 
-        MIT — free to use, modify and distribute.
+MIT — free to use, modify and distribute.
